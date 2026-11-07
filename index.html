@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Barnaba - Sant'Annapelago</title>
+  <meta name="description" content="Casa vacanze e servizi a Casa Barnaba, Sant'Annapelago.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Maven+Pro:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigazione -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <div class="logo">
+        <a href="index.html">casa BARNABA</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Apri menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li class="has-dropdown">
+            <a href="index.html" class="active">Home</a>
+            <ul class="dropdown">
+              <li><a href="dove-mangiare.html">Dove Mangiare</a></li>
+              <li><a href="artigianato-e-commercio.html">Artigianato e Commercio</a></li>
+              <li><a href="impianti-di-risalita.html">Impianti di Risalita</a></li>
+              <li><a href="trekking-e-mountain-bike.html">Trekking e Mountain Bike</a></li>
+              <li><a href="altre-attivita.html">Altre Attività</a></li>
+              <li><a href="dintorni.html">Dintorni</a></li>
+            </ul>
+          </li>
+          <li><a href="servizi-della-casa.html">Servizi della casa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Slideshow -->
+  <section class="hero-slider">
+    <div class="slide active" style="background-image: url('https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-mon-oct-21-2024-11-34-08-gmt-0200-ora-legale-dell-europa-centrale-standard.png?enable-io=true&fit=bounds&width=1920&height=1920');">
+      <div class="overlay"></div>
+      <div class="slide-content">
+        <h1>CASA BARNABA</h1>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-wed-oct-23-2024-15-06-43-gmt-0200-ora-legale-dell-europa-centrale-standard-cvlv4g.png?enable-io=true&fit=bounds&width=1920&height=1920');">
+      <div class="overlay"></div>
+      <div class="slide-content">
+        <h1>CASA BARNABA</h1>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-wed-oct-23-2024-15-09-43-gmt-0200-ora-legale-dell-europa-centrale-standard.png?enable-io=true&fit=bounds&width=1920&height=1920');">
+      <div class="overlay"></div>
+      <div class="slide-content">
+        <h1>CASA BARNABA</h1>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-wed-oct-23-2024-15-09-16-gmt-0200-ora-legale-dell-europa-centrale-standard-1vnajv.png?enable-io=true&fit=bounds&width=1920&height=1920');">
+      <div class="overlay"></div>
+      <div class="slide-content">
+        <h1>CASA BARNABA</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Benvenuto -->
+  <section class="welcome-section container">
+    <h2>Benvenuti a Casa Barnaba Sant'Annapelago</h2>
+    <a href="servizi-della-casa.html" class="btn btn-primary btn-large">
+      <svg class="icon" viewBox="0 0 460.298 460.297" fill="currentColor">
+        <path d="M230.149,120.939L65.986,256.274c0,0.191-0.048,0.472-0.144,0.855c-0.094,0.38-0.144,0.656-0.144,0.852v137.041 c0,4.948,1.809,9.236,5.426,12.847c3.616,3.613,7.898,5.431,12.847,5.431h109.63V303.664h73.097v109.64h109.629 c4.948,0,9.236-1.814,12.847-5.435c3.617-3.607,5.432-7.898,5.432-12.847V257.981c0-0.76-0.104-1.334-0.288-1.707L230.149,120.939 z"/>
+        <path d="M457.122,225.438L394.6,173.476V56.989c0-2.663-0.856-4.853-2.574-6.567c-1.704-1.712-3.894-2.568-6.563-2.568h-54.816 c-2.666,0-4.855,0.856-6.57,2.568c-1.711,1.714-2.566,3.905-2.566,6.567v55.673l-69.662-58.245 c-6.084-4.949-13.318-7.423-21.694-7.423c-8.375,0-15.608,2.474-21.698,7.423L3.172,225.438c-1.903,1.52-2.946,3.566-3.14,6.136 c-0.193,2.568,0.472,4.811,1.997,6.713l17.701,21.128c1.525,1.712,3.521,2.759,5.996,3.142c2.285,0.192,4.57-0.476,6.855-1.998 L230.149,95.817l197.57,164.741c1.526,1.328,3.521,1.991,5.996,1.991h0.858c2.471-0.376,4.463-1.43,5.996-3.138l17.703-21.125 c1.522-1.906,2.189-4.145,1.991-6.716C460.068,229.007,459.021,226.961,457.122,225.438z"/>
+      </svg>
+      SERVIZI DELLA CASA
+    </a>
+  </section>
+
+  <!-- Griglia Attività -->
+  <section class="activities-grid container">
+    <div class="card">
+      <a href="dove-mangiare.html" class="btn btn-secondary">DOVE MANGIARE</a>
+      <a href="dove-mangiare.html" class="card-img-wrap">
+        <img src="https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-tue-oct-22-2024-22-06-56-gmt-0200-ora-legale-dell-europa-centrale-high.png?enable-io=true&width=800" alt="Dove Mangiare" loading="lazy">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="artigianato-e-commercio.html" class="btn btn-secondary">ARTIGIANATO E COMMERCIO</a>
+      <a href="artigianato-e-commercio.html" class="card-img-wrap">
+        <img src="https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-tue-oct-22-2024-22-07-50-gmt-0200-ora-legale-dell-europa-centrale-high.png?enable-io=true&width=800" alt="Artigianato e Commercio" loading="lazy">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="impianti-di-risalita.html" class="btn btn-secondary">IMPIANTI DI RISALITA</a>
+      <a href="impianti-di-risalita.html" class="card-img-wrap">
+        <img src="https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-tue-oct-22-2024-22-08-40-gmt-0200-ora-legale-dell-europa-centrale-high.png?enable-io=true&width=800" alt="Impianti di Risalita" loading="lazy">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="trekking-e-mountain-bike.html" class="btn btn-secondary">TREKKING E MOUNTAIN BIKE</a>
+      <a href="trekking-e-mountain-bike.html" class="card-img-wrap">
+        <img src="https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-tue-oct-22-2024-22-09-24-gmt-0200-ora-legale-dell-europa-centrale-high.png?enable-io=true&width=800" alt="Trekking e Mountain Bike" loading="lazy">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="altre-attivita.html" class="btn btn-secondary">ALTRE ATTIVITA'</a>
+      <a href="altre-attivita.html" class="card-img-wrap">
+        <img src="https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-tue-oct-22-2024-22-10-31-gmt-0200-ora-legale-dell-europa-centrale-high.png?enable-io=true&width=800" alt="Altre Attività" loading="lazy">
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="dintorni.html" class="btn btn-secondary">DINTORNI</a>
+      <a href="dintorni.html" class="card-img-wrap">
+        <img src="https://primary.jwwb.nl/public/m/g/l/temp-teeoxoflpiwfyudnzgps/pasted-image-tue-oct-22-2024-22-12-02-gmt-0200-ora-legale-dell-europa-centrale-high.png?enable-io=true&width=800" alt="Dintorni" loading="lazy">
+      </a>
+    </div>
+  </section>
+
+  <!-- Sezione Meteo -->
+  <section class="weather-section container">
+    <a href="https://www.ilmeteo.it/meteo/Sant%27Annapelago" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+      <svg class="icon" viewBox="0 0 548.176 548.176" fill="currentColor">
+        <path d="M524.183,297.065c-15.985-19.893-36.265-32.691-60.815-38.399c7.81-11.993,11.704-25.126,11.704-39.399 c0-20.177-7.139-37.401-21.409-51.678c-14.273-14.272-31.498-21.411-51.675-21.411c-18.271,0-34.071,5.901-47.39,17.703 c-11.225-27.028-29.075-48.917-53.529-65.667c-24.46-16.746-51.728-25.125-81.802-25.125c-40.349,0-74.802,14.279-103.353,42.83 c-28.553,28.544-42.825,62.999-42.825,103.351c0,2.856,0.191,6.945,0.571,12.275c-22.078,10.279-39.876,25.838-53.389,46.686 C6.759,299.067,0,322.055,0,347.18c0,35.211,12.517,65.333,37.544,90.359c25.028,25.033,55.15,37.548,90.362,37.548h310.636 c30.259,0,56.096-10.715,77.512-32.121c21.413-21.412,32.121-47.249,32.121-77.515 C548.172,339.757,540.174,316.952,524.183,297.065z"/>
+      </svg>
+      METEO
+    </a>
+  </section>
+
+  <!-- Mappa & Posizione -->
+  <section class="location-section container">
+    <div class="map-embed">
+      <!-- Mappa OpenStreetMap autonoma (senza API Key) -->
+      <iframe 
+        width="100%" 
+        height="350" 
+        frameborder="0" 
+        scrolling="no" 
+        marginheight="0" 
+        marginwidth="0" 
+        src="https://www.openstreetmap.org/export/embed.html?bbox=10.5314141%2C44.1810696%2C10.5714141%2C44.2010696&amp;layer=mapnik&amp;marker=44.1910696%2C10.5514141">
+      </iframe>
+    </div>
+    <div class="location-details">
+      <h2>Posizione</h2>
+      <p>Sant'Annapelago, MO</p>
+      <a href="https://www.google.com/maps/dir//Poliambulatorio+di+Pievepelago,+Via+Ferrari,+2,+41027+Pievepelago+MO/@44.2035817,10.6153744,185m/data=!3m1!1e3!4m9!4m8!1m0!1m5!1m1!1s0x12d5600102d82919:0x909ceb9d1e7ed1ce!2m2!1d10.6161927!2d44.2036142!3e0" target="_blank" rel="noopener" class="btn btn-secondary">
+        <svg class="icon" viewBox="0 0 511.626 511.627" fill="currentColor">
+          <path d="M18.842,128.478C6.28,141.041,0,156.078,0,173.586v237.54c0,17.512,6.28,32.549,18.842,45.111 c12.563,12.562,27.6,18.843,45.111,18.843h9.136V109.632h-9.136C46.438,109.632,31.402,115.916,18.842,128.478z"/>
+          <path d="M365.446,63.953c0-7.614-2.663-14.084-7.994-19.414c-5.325-5.33-11.8-7.993-19.411-7.993H173.589 c-7.612,0-14.083,2.663-19.414,7.993c-5.33,5.327-7.994,11.799-7.994,19.414v45.679H100.5V475.08h310.625V109.632h-45.679V63.953z M182.725,73.089h146.179v36.543H182.725V73.089z M365.446,319.765c0,2.67-0.855,4.853-2.567,6.571 c-1.711,1.707-3.9,2.566-6.563,2.566h-63.953v63.953c0,2.662-0.862,4.853-2.573,6.563c-1.704,1.711-3.895,2.567-6.561,2.567 H228.41c-2.667,0-4.854-0.856-6.567-2.567c-1.711-1.711-2.568-3.901-2.568-6.563v-63.953h-63.953 c-2.668,0-4.854-0.859-6.567-2.566c-1.714-1.719-2.57-3.901-2.57-6.571v-54.815c0-2.67,0.856-4.859,2.57-6.571 c1.709-1.709,3.899-2.564,6.562-2.564h63.953V191.86c0-2.666,0.856-4.853,2.57-6.567c1.713-1.713,3.899-2.568,6.567-2.568h54.818 c2.665,0,4.855,0.855,6.563,2.568c1.711,1.714,2.573,3.901,2.573,6.567v63.954h63.953c2.663,0,4.853,0.855,6.563,2.564 c1.708,1.712,2.563,3.901,2.563,6.571v54.815H365.446z"/>
+          <path d="M492.785,128.478c-12.563-12.562-27.601-18.846-45.111-18.846h-9.137V475.08h9.137c17.511,0,32.548-6.28,45.111-18.843 c12.559-12.562,18.842-27.6,18.842-45.111v-237.54C511.626,156.078,505.343,141.041,492.785,128.478z"/>
+        </svg>
+        POLIAMBULATORIO DI PIEVEPELAGO
+      </a>
+    </div>
+  </section>
+
+  <!-- Contatti -->
+  <section class="contact-section">
+    <div class="container text-center">
+      <h2>Contatti</h2>
+      <p><a href="tel:3474979912">Federico: 3474979912</a></p>
+      <p><a href="tel:3475480112">Lucia: 3475480112</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p>&copy; <span id="currentYear"></span> Casa Barnaba - Sant'Annapelago</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
